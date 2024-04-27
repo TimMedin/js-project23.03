@@ -163,3 +163,194 @@ nav {
     margin-top: 36px;
     margin-bottom: 46px;
 }
+
+
+.ul-butons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.li-button {
+margin-right: 38px;
+}
+
+
+.li-button:last-child {
+    margin-right: 0;
+    margin-left: 105px;
+}
+
+.button-li {
+width: 60px;
+    height: 60px;
+    border-radius: 20px;
+        background: rgb(0, 0, 0);
+}
+
+
+.button-computer {
+    width: 182px;
+        height: 35px;
+    border-radius: 20px;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+            font-family: Montserrat Alternates;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 15px;
+            letter-spacing: 0%;
+}
+
+.heding-name {
+    width: 195px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin: 0 auto;
+}
+
+.heading1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-bottom: 36px;
+
+}
+
+.football_court{
+    box-sizing: border-box;
+    width: 720px;
+    height: 220px;
+
+    background: #5ABB58;
+    border: 2px solid #000000;
+    border-radius: 37px;
+}
+
+.ball{
+width: 50px;
+height: 50px;
+background-image: url(./imgs/ball.png);
+border-radius: 50%;
+transition: transform 0.3 cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.p_3{
+margin-top: 36px;
+text-align: center;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #000000;
+}
+
+.input-field {
+    padding: 10px;
+    border-radius: 25px 0 0 25px;
+    width: 180px;
+    height: 35px;
+    background-color: rgb(215, 215, 215);
+    color: rgb(126, 126, 126);
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.input_and_answer_group{
+    display: flex;
+    justify-content: center;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    height: 35px;
+    width: 35px;
+    /* padding: 10px; */
+    border: 1px solid #000000;
+    border-radius: 0 25px 25px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.line-box {
+    width: 570px;
+    border-bottom: 1px solid #000;
+}
+
+.max-text {
+
+}
+
+.sc_img{
+    width: 100px;
+    height: 100px;
+
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.blick_item{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.blick_item:not(:last-child){
+margin-bottom: 36px;
+}
+
+.sc_img:not(:last-child){
+margin-right: 59px;
+}
+
+.right_button_list_item, .left_button_list_item{
+width: fit-content;
+margin-bottom: 20px;
+}
+
+.right_block_of_btns{
+display: flex;
+align-items: flex-end;
+flex-direction: column;
+margin-right: 36px;
+}
+
+.left_button_list_item{
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+}
+
+
+

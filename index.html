@@ -43,18 +43,101 @@
                 <div class="year-game">
                     <h2 class="year-heading">Перевір в який рік ти народився</h2>
                     <div class="year-input-box">
-                        <input type="text" placeholder="Введіть число">
+                        <div class="input-group">
+                            <input type="text" placeholder="Введіть число" style="width: 115px;" class="input-field">
+                            <button type="submit" class="button">🔍︎</button>
+                        </div>
                         <p class="year-result">Ви народилися у високосний рік!</p>
                     </div>
                 </div>
                 <div class="number-box">
                     <h2 class="number-heading">Вгадай число, яке загадав комп’ютер </h2>
                     <div class="number-input-box">
-                        <input type="text" placeholder="Введіть число">
+                        <div class="input-group">
+                            <input type="text" placeholder="Введіть число" style="width: 115px;" class="input-field number-input">
+                            <button type="submit" class="button">🔍︎</button>
+                        </div>
                         <p class="number-result">Вітаю, ви вгадали число! (number)</p>
-                    </div>
+                    </div>  
+                </div>
+                <div class="div-1">
+                    <h2 class="heding-name">Камінь - ножиці - папір</h2>
+                  <ul class="ul-butons">
+                    <li class="li-button"><button class="button-li" id="cut"><img src="./img/scissors1.png" alt=""></button></li>
+                    <li class="li-button"><button class="button-li" id="stone"><img src="./img/sto1.webp" alt=""></button></li>
+                    <li class="li-button"><button class="button-li" id="papar"><img src="./img/paper1.webp" alt=""></button></li>
+                    <li class="li-button">
+                      <p class="p-rahunok">Рахунок:</p>
+                      <p class="p-computer">Комп'ютер <span class="span1">-</span></p>
+                      <p class="p-You">Ви<span class="span2"></span>-</p>
+                    </li>
+                  </ul>  
+                  <p class="p-winer"></p>
+                  <button class="button-computer">Варіант комп’ютера</button>
+                  <h3 class="heading1">Калькулятор часу</h3>
+                  <div class="time_calc_flex" style="display: flex; justify-content: center; align-items: center; margin-bottom: 46px;">
+                      <div class="input-group flex_time_calc">
+                          <input type="number" placeholder="Введіть число" style="width: 115px;" class="input-field" id="time_calc_input_id">
+                      <button id="time_calc_button_id" type="submit" class="button">🔍︎</button>
+                      </div>
+                      <p class="flex_time_calc">---------------------</p>
+                      <p class="time_result flex_time_calc" id="final_time">*time*</p>
+                  </div>
+                  <div class="line-box"></div>
+                  </div>
+                  <h3 class="heading1">Футбол</h3>
+                  <div class="football_court" id="football_field">
+                      <div class="ball" id="football">
+                      </div>
+                  </div>
+                  <div class="max-number-box" style="display: flex; justify-content: center; align-items: center;">
+                    <input type="number" placeholder="Введіть число" style="width: 130px; border-radius: 25px 25px 25px 25px; margin-right: 38px;" class="numb-inp" id="numb-inp">
+                    <input type="number" placeholder="Введіть число" style="width: 130px; border-radius: 25px 25px 25px 25px; margin-right: 38px;" class="numb-inp" id="numb-inp">
+                    <input type="number" placeholder="Введіть число" style="width: 130px; border-radius: 25px 25px 25px 25px;" class="numb-inp" id="numb-inp">
+                </div>
+                <p class="max-text" id="max-text">Найбільше, число, яке Ви написали - </p>
+                <div class="line-box"></div>
+            </div>
+            <h3 class="heading1">Обери вченого/их</h3>
+            <div class="photos_gallery" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <!-- <div class="blick_item" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="sc_img"><p></p><p></p></div>
+                    <div class="sc_img"></div>
+                    <div class="sc_img"></div>
+                    <div class="sc_img"></div>
+                </div>
+                <div class="blick_item">
+                    <div class="sc_img"></div>
+                    <div class="sc_img"></div>
+                    <div class="sc_img"></div>
+                    <div class="sc_img"></div>
+                </div>
+                <div class="blick_item">
+                    <div class="sc_img"></div>
+                    <div class="sc_img"></div>
+                    <div class="sc_img"></div>
+                    <div class="sc_img"></div>
+                </div> -->
+
+            </div>
+            <div class="buttons_main_flex" style="display: flex; justify-content:space-between; margin-top: 36px;">
+                <div class="right_block_of_btns" style="width: 450px;">
+                    <button id="button1" class="right_button_list_item button_game">Які вчені народилися в 19 ст.</button>
+                    <button id="button2" class="right_button_list_item button_game">Відсортувати вчених за алфавітом</button>
+                    <button id="button3" class="right_button_list_item button_game">Відсортувати вчених за кількістю прожитих років</button>
+                    <button class="right_button_list_item button_game">Знайти вченого, який народився найпізніше</button>
+                </div>
+                <div class="left_block_of_btns" style="width: 450px;">
+                    <button class="left_button_list_item button_game" id="button5">Знайти рік народження Albert Einshtein</button>
+                    <button class="left_button_list_item button_game">Знайти вчених, прізвища яких починаються на на літеру “С”</button>
+                    <button class="left_button_list_item button_game">Видалити всіх вчених, ім’я яких починається на “А”</button>
+                    <button id="button8" class="left_button_list_item button_game">Знайти вченого, який прожив найдовше і вченого,
+                        який прожив найменше</button>
                 </div>
             </div>
+            <button class="button_game" style="display: block; margin: 0 auto;">1. Знайти вчених, в яких співпадають перші літери імені і прізвища</button>
+        </div>
+            
         </section>
     </main>
     <script src="./script.js"></script>
